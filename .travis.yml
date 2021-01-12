@@ -18,6 +18,9 @@ matrix:
     ###
     - os: linux
       dist: xenial
+      arch:
+        - amd64
+        - ppc64le
 
       env:
         - ANDROID_TOOLS_URL="https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip"
